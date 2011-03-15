@@ -36,3 +36,8 @@ runasuser is configured via a simple text file, runasuser.conf. See the
 runasuser.conf(5) man page.
 
 runasuser looks in /etc and /usr/local/etc for this file.
+
+Logging (not yet implemented)
+=============================
+
+This fork of runasuser has been created to add in syslog logging.  This will keep a log of all calls of the runasuser command with the instructing user and the time.
